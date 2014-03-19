@@ -1,0 +1,39 @@
+/*------------------------------------*\
+   Colours
+\*------------------------------------*/
+
+$copy: #444;
+$headings: #003945;
+$action: #cc5835;
+$brand: #444;
+
+/*------------------------------------*\
+    Breakpoints
+\*------------------------------------*/
+
+$bp1: 38em; // 608px
+$bp2: 50em; // 800px
+$bp3: 60em; // 960px
+$bp4: 68em; // 1120px
+
+$max-width: $bp4;
+
+/*------------------------------------*\
+    Variables
+\*------------------------------------*/
+
+$copy-face: sans-serif;
+$headings-face: sans-serif;
+
+
+/*------------------------------------*\
+    Global
+\*------------------------------------*/
+
+// Box-size everything FTW - http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}

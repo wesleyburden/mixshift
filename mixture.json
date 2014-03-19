@@ -1,0 +1,35 @@
+{
+  "convertHtmlOutput": null,
+  "debug": true,
+  "domain": null,
+  "followLeader": false,
+  "lintScripts": false,
+  "modelSource": null,
+  "preprocessorLocations": "assets",
+  "preprocessorScriptOutput": "assets/js",
+  "preprocessorStyleOutput": "assets",
+  "projectDescription": "",
+  "projectName": "New Project",
+  "serverHostname": "localhost",
+  "serverPort": null,
+  "simpleModePartnerServer": null,
+  "templateDefaultLayout": "base",
+  "templateDefaultPage": "index",
+  "templateDirectory": "mix-templates",
+  "type": "mixture",
+  "useCompass": false,
+  "autoPrefixer": {
+	  "active": true,
+	  "browsers": [
+	  	"last 2 version", 
+	  	"ie 8"
+	  ]
+	},
+	"sass": {
+	  "globbing": true,
+	  "outputStyle": "nested",
+	  "sourceMap": true,
+	  "lineNumbers": false,
+	  "useLibSass": false
+	}
+}

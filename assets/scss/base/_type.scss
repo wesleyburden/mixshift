@@ -1,0 +1,79 @@
+/**
+ * Site wide tag styles only in this file
+ */
+ 
+/*------------------------------------*\
+    Fonts
+\*------------------------------------*/
+
+// TODO: This needs better base font styling
+
+html {
+	font-size: 100%;
+	line-height: 1.5;
+	font-family: sans-serif;
+	color: $copy;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding:0;
+	line-height: 1.125;
+	font-family: $headings-face;
+	font-weight: bold;
+	color: $headings;
+}
+
+h1 {
+	font-size: 2em;
+	margin-bottom: .5em
+}
+
+h2 {
+	font-size: 1.75em;
+	margin-bottom: .571428571em;
+	margin-top: .5em;
+}
+
+h3 {
+	font-size: 1.5em;
+	margin-bottom: .666666667em;
+}
+
+h4 {
+	font-size: 1.25em;
+	margin-bottom: .8em;
+}
+h5 {
+	font-size: 1em;
+	margin-bottom: 1em;
+}
+
+h6 {
+	text-transform: uppercase;
+	font-size: 1em;
+	margin-bottom: 1em;	
+}
+
+p {
+	margin: 0 0 1.5em 0;
+	color: $copy;
+	font-size: .875em;	
+}
+
+a {
+	text-decoration: none;
+	color: $action;
+	transition: color .25s, background .25s;
+
+	&:hover {
+		color: lighten($action, 20%);
+	}
+}
+
+// Base styling but focused to the main content area
+.content-area {
+	ul {
+		font-size: .875em;
+	}
+}

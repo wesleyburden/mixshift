@@ -1,0 +1,10 @@
+.wrapper  {
+	max-width: $max-width;
+	margin: 0 auto;
+	padding: 0 1em;
+	@extend %cf;
+	
+	@include respond-to($bp1, true) {
+		padding: 0 1.5em;
+	}	
+}

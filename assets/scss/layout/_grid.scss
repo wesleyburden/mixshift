@@ -1,0 +1,46 @@
+.grid {
+	@extend %cf;
+	margin-left: -1em;
+	margin-right: -1em;
+}
+
+.gu {
+	float:left;
+	padding: 0 1em;
+	width: 100%;
+}
+
+.gu--rev {
+	float:right;
+}
+
+.one-half {
+	@include respond-to($bp2, true) {
+		width: 50%;
+	}
+}
+
+.one-third {
+	@include respond-to($bp2, true) {
+		width: 33.333333%;
+	}
+}
+
+.two-thirds {
+	@include respond-to($bp2, true) {
+		width: 66.666666%;
+	}
+}
+
+.one-fourth {
+	@include respond-to($bp1, $bp2) {
+		width: 50%;
+		&:nth-child(3) {
+			clear:both;
+		}
+	}
+	@include respond-to($bp2, true) {
+		width: 25%;
+		clear:none;
+	}
+}
