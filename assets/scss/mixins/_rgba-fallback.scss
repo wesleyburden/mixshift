@@ -1,0 +1,11 @@
+@mixin rgba-fallback($color:#000, $opacity:0.3, $fallback:#a7a7a7, $type:bg) {
+  @if $type == color {
+    color: $fallback;
+    color: rgba($color, $opacity);
+  }
+ 
+  @if $type == bg {
+    background-color: $fallback;
+    background-color: rgba($color, $opacity);
+  }
+}
